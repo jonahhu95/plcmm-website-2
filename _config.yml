@@ -13,6 +13,7 @@ social:
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 theme: null # We are using a custom theme
 plugins:
   - jekyll-feed
