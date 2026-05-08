@@ -1,0 +1,28 @@
+title: Paya Lebar Chinese Methodist Mission
+email: info@plcmm.org.sg
+description: >-
+  Official website of Paya Lebar Chinese Methodist Mission (PLCMM). 
+  A community of faith, hope, and love.
+baseurl: "/plcmm-website-2" # the subpath of your site, e.g. /blog
+url: "https://jonahhu95.github.io" # the base hostname & protocol for your site
+
+# Social Links
+social:
+  facebook: "https://www.facebook.com/plcmm"
+  instagram: "https://www.instagram.com/plcmm"
+
+# Build settings
+markdown: kramdown
+theme: null # We are using a custom theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
